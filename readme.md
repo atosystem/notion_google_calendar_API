@@ -1,1 +1,3 @@
-#h1 notion_google_calendar_API
+# Notion_Google_Calendar_API
+
+The usage is demonstrated in test.py
