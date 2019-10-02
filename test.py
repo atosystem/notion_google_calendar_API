@@ -12,6 +12,13 @@ obj_gc = gc.google_cal_api()
 #create a calendar
 obj_gc.insert_calendar('Notion')
 
+###delete a calendar
+"""
+obj_gc = gc.google_cal_api("<your calendar ID>")
+obj_gc.delete_calendar()
+
+"""
+
 calendar_event_entry = {
         "end": {
             "date": "2019-10-1"
@@ -25,3 +32,9 @@ calendar_event_entry = {
 
 #create event and return event id
 obj_gc.insert_event(calendar_event_entry)
+
+#update event 
+obj_gc.update_event(event_Id,calendar_event_entry):
+    
+#get event info
+obj_gc.get_event(event_Id):
