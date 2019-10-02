@@ -34,7 +34,7 @@ calendar_event_entry = {
 obj_gc.insert_event(calendar_event_entry)
 
 #update event 
-obj_gc.update_event(event_Id,calendar_event_entry):
+obj_gc.update_event(event_Id,calendar_event_entry)
     
 #get event info
-obj_gc.get_event(event_Id):
+obj_gc.get_event(event_Id)
